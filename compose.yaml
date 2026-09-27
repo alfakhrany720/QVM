@@ -9,7 +9,6 @@ services:
       - sqlite_data:/app/Data/db
       - logs_data:/app/Data/logs
       - ./Data/Font:/app/Data/Font:ro
-      - ./Data/metadata.json:/app/Data/metadata.json:ro
     env_file:
       - .env
     environment:
